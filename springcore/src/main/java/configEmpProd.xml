@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+ <bean name="emp" class="com.assignments.Employee"  p:empId="101" p:empName="Akshay" p:job="Software Devloper" p:salary="45667"  />
+ 
+ <!-- <property name="stud_id" value="101" />
+ 
+ 
+ <property name="stud_name" value="Shubham" />
+ 
+ 
+ <property name="age" value="22" /> -->
+ 
+ <bean name="pd" class="com.assignments.Product"  p:pid="501" p:name="Coockie" p:quantity="50" p:price="500"  />
+ 
+ 
+ 
+ 
+ 
+ </beans>
+ 
